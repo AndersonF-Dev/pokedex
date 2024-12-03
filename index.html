@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex | projeto 2</title>
+
+    <link rel="stylesheet" href="src/css/resete.css">
+    <link rel="stylesheet" href="src/css/stilos.css">
+    <link rel="stylesheet" href="src/css/pokedex.css">
+</head>
+<body>
+
+    <section class="content">
+        <h1>Pokedex</h1>
+  
+        <ol onclick="abrirModal()" id="pokemonList" class="pokemons">
+          <!-- ..... Pokemons here ..... -->
+          <li class="pokemon ${pokemon.type}" data-id="${pokemon.number}">
+            <span class="name">bulbasaur</span>
+            <span class="number">#01</span>
+            
+            <div class="detail">
+                <ol class="types">
+                    <li class="type ${type}">grass</li>
+                    <li class="type ${type}">poison</li>
+                </ol>
+                <img src="Bulbasaur-PNG-Image.png" alt="${pokemon.name}">
+            </div>
+        </li>
+        </ol>
+
+        <ol onclick="abrirModal()" id="pokemonList" class="pokemons">
+            <!-- ..... Pokemons here ..... -->
+            <li class="pokemon ${pokemon.type}" data-id="${pokemon.number}">
+              <span class="name">bulbasaur</span>
+              <span class="number">#01</span>
+              
+              <div class="detail">
+                  <ol class="types">
+                      <li class="type ${type}">grass</li>
+                      <li class="type ${type}">poison</li>
+                  </ol>
+                  <img src="Bulbasaur-PNG-Image.png" alt="${pokemon.name}">
+              </div>
+          </li>
+          </ol>
+
+          <ol onclick="abrirModal()" id="pokemonList" class="pokemons">
+            <!-- ..... Pokemons here ..... -->
+            <li class="pokemon ${pokemon.type}" data-id="${pokemon.number}">
+              <span class="name">bulbasaur</span>
+              <span class="number">#01</span>
+              
+              <div class="detail">
+                  <ol class="types">
+                      <li class="type ${type}">grass</li>
+                      <li class="type ${type}">poison</li>
+                  </ol>
+                  <img src="Bulbasaur-PNG-Image.png" alt="${pokemon.name}">
+              </div>
+          </li>
+          </ol>
+
+          <ol onclick="abrirModal()" id="pokemonList" class="pokemons">
+            <!-- ..... Pokemons here ..... -->
+            <li class="pokemon ${pokemon.type}" data-id="${pokemon.number}">
+              <span class="name">bulbasaur</span>
+              <span class="number">#01</span>
+              
+              <div class="detail">
+                  <ol class="types">
+                      <li class="type ${type}">grass</li>
+                      <li class="type ${type}">poison</li>
+                  </ol>
+                  <img src="Bulbasaur-PNG-Image.png" alt="${pokemon.name}">
+              </div>
+          </li>
+          </ol>
+  
+        <div class="pagination">
+          <button id="loadMoreButton" type="button">Load More</button>
+        </div>
+      </section>
+      
+  
+     <div id="janela-modal" class="janela-modal">
+      <button class="fechar" id="fechar">X</button>
+          <ol class="modalContent">
+              
+  
+              <li id="modalContent" class="modalPokemon">
+                  <span class="nome-pokemonModal">Bulbasaur</span>
+                  <span class="numeroModal">#001</span>
+  
+                  <img
+                  src="src/dck5guu-81b6360c-2644-43f1-a544-48aeb12e134d.png"
+                   alt=""/>
+              </li> 
+             
+          </ol>
+      </div> 
+    
+</body>
+</html>

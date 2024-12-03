@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Pokemon-Hollow';
+    src: url('../font/Pokemon\ Hollow.ttf');
+}
+
+body {
+    background-color: #d1d2d4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.content {
+    width: 900px;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+    overflow: hidden;
+    overflow-y: scroll;
+    font-family: Pokemon-Hollow;
+    color: aqua;
+    
+    
+}
